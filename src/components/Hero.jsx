@@ -5,7 +5,7 @@ import "../styles/Hero.css";
 import CvPath from "./images/Sai_Vamsi_Resume.pdf";
 
 // Importing social media icons
-import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "r    eact-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 function Hero() {
   return (
