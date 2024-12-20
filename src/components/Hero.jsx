@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Hero.css";
 // import heroImage from "./src/assets/images/Vamsi.jpg";
-import CvPath from "./images/Sai_Vamsi_Resume.pdf";
+// import CvPath from "./images/Sai_Vamsi_Resume.pdf";
 
 // Importing social media icons
 import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
@@ -24,14 +24,14 @@ function Hero() {
               <a href="#projects" className="btn btn-primary me-md-2 mb-2 mb-md-0">
                 View Projects
               </a>
-              <a
+              {/* <a
                 href={CvPath} // Add your CV file link here
                 download
                 className="btn btn-outline-light"
-              >
-                
+              > */}
+{/* 
                 Download CV
-              </a>
+              </a> */}
             </div>
           </div>
 
